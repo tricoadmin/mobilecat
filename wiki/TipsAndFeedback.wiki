@@ -4,7 +4,7 @@
 
 Bob Duncan noted that, "for example, not all III catalogs have 3-column item tables, not everyone uses the label 'status', not everyone uses 'available' to indicate an item's available, not everyone displays medium, not all libraries have scopes, etc., but I see code that refers to these values"
 
-The code is written to TriCo's Tripod catalog, without real research into the variations between structure and vocabulary in different III OPACs.  Scraping the right data depends on the html of the search results page in particular, and is all handled in the IIIParse file.  Libraries will probably need to mess with that file to tweak it to their own situations.  
+The code is written to TriCo's Tripod catalog, without real research into the variations between structure and vocabulary in different III OPACs.  Scraping the right data depends on the html of the search results page in particular, and is all handled in the IIIParse file.  Libraries will probably need to mess with that code to tweak to their own situations.  It might be better to do this in SiteParse.php, which is a child of IIIParse.
 
 Anyone interested in making that code more general would be welcome to do so!
 
