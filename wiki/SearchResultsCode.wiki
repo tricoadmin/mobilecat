@@ -1,0 +1,23 @@
+#summary map of code for search-related files, broken down by javascript use
+#labels Phase-Implementation
+
+
+A map of code for search-related files, broken down by javascript use
+
+=== both ===
+ * searchbox.html - if js, calls search, else call search_nojs
+ * index.php
+ * index.html
+ * search_results.html - iterates through results to get cover & info.
+ * cover_image.php
+
+=== js-specific ===
+ * index.js
+ * search.php - sets search query and search.js, displays search_main
+ * search_main.html - results page
+ * search.js - js to go with results page
+ * browse.php - called from search.js to populate actual results
+
+=== nojs-specific ===
+ * search_nojs_main.html - results page
+ * search_nojs.php - pretty much does what browse.php does?
