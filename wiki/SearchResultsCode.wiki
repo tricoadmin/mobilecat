@@ -1,8 +1,5 @@
-#summary map of code for search-related files, broken down by javascript use
+#summary A map of code for search-related files, broken down by javascript use
 #labels Phase-Implementation
-
-
-A map of code for search-related files, broken down by javascript use
 
 === both ===
  * searchbox.html - if js, calls search, else call search_nojs
