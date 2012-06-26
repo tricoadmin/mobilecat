@@ -8,6 +8,7 @@ class IIIParse {
 
     public $base_url      = null;
     public $catalog_url   = null;
+    public $full_catalog_link = null;
 
     public $email_subject = null;
     
