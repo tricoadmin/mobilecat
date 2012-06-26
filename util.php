@@ -22,6 +22,12 @@ function get_smarty() {
     $smarty->assign("baseurl", $p->base_url);
     $smarty->assign("catalogname", $p->catalog_name);
     $smarty->assign("catalogurl", $p->catalog_url);
+    if ($p->full_catalog_link != null) {
+        $smarty->assign("fullcataloglink", $p->full_catalog_link);
+    }
+    else {
+        $smarty->assign("fullcataloglink", $p->catalog_url);
+    }
     $smarty->assign("feedback_email", $p->feedback_email);
     $smarty->assign("scoping", $p->scoping);
     $smarty->assign("scopes", $p->scopes);
