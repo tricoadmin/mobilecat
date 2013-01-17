@@ -21,10 +21,10 @@
         {/if}
             
         {foreach from=$r.links item=link}
-            <a class="wide" href="{$link[0]}" target="_blank">{$link[1]}</a>
+            <a class="wide" href="{$link[0]}">{$link[1]}</a>
         {/foreach}
 
-    <a href="{$catalogurl}/record={$r.bibid}" target="_blank">Full {$catalogname} record</a>{include file="include/backlink_search.html"}
+    <a href="{$catalogurl}/record={$r.bibid}">Full {$catalogname} record</a>{include file="include/backlink_search.html"}
 
     <div class="clear">
         <a class="button" 
